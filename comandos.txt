@@ -1,2 +1,5 @@
 composer create-project --prefer-dist laravel/laravel blog
 php artisan serve
+
+Aula 04
+php artisan make:controller Form\TestController --resource --model=User
