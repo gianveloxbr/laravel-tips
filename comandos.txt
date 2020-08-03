@@ -3,3 +3,18 @@ php artisan serve
 
 Aula 04
 php artisan make:controller Form\TestController --resource --model=User
+
+Aula 05
+php artisan make:migration create_categories_table
+php artisan make:migration teste1 --create=teste1
+php artisan make:migration teste2 --table=teste2
+php artisan migrate
+php artisan migrate:rollback
+php artisan migrate:rollback --step=1
+
+Aula 06
+Limpar migrations:
+php artisan migrate:fresh
+php artisan make:model Post
+//Cria tudo de uma vez
+php artisan make:model Product -mcr
