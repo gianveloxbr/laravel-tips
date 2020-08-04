@@ -21,3 +21,8 @@ php artisan make:model Product -mcr
 
 Aula 07
 php artisan make:controller UserController --resource
+
+Aula 08
+composer require laravel/ui --dev
+php artisan ui bootstrap --auth
+npm install && npm run dev
